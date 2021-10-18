@@ -1,0 +1,50 @@
+[
+    {
+        "id": "01",
+        "name": "Get ambulance",
+        "short_d": "We have brought you the best quality online ambulance service in Dhaka. Be it pandemic or other adverse situations. we are ready to transport the patient to the hospital or home. We value your lives and we will ....",
+        "img": "https://i.ibb.co/mcdb1MK/Traffic-accident-scene-of-car-collision-with-bicycle-isometric-composition-with-drivers-involved-and.jpg",
+        "descripiton": "We have brought you the best quality online ambulance service in Dhaka. Be it pandemic or other adverse situations. we are ready to transport the patient to the hospital or home. We value your lives and we will not let anyone die without getting proper treatment.During the pandemic situation, we have noticed that people are dying before getting admitted to the hospitals. So that, we have taken the initiative to launch our online ambulance service in all over Bangladesh , Mirpur, Mohakhali and as well as other rural areas so that people can easily access emergency ambulance services in Bangladesh. We provide 24-hour emergency ambulance services to people and acute illnesses as well as pregnancy. ",
+        "price": "100"
+    },
+    {
+        "id": "02",
+        "name": "Get Home doctor",
+        "short_d": "Hello Home Doctor Service is an accredited deputising afterhours medical service and because of this can only provide appointments before 8AM and after 6PM on Monday to Friday, before 8AM and after 12PM on Saturdays, any time ",
+        "img": "https://i.ibb.co/Fs0DzMD/female-doctor-measuring-temperature-her-sick-patient-lying-bed.jpg",
+        "descripiton": "Hello Home Doctor Service is an accredited deputising afterhours medical service and because of this can only provide appointments before 8AM and after 6PM on Monday to Friday, before 8AM and after 12PM on Saturdays, any time Sundays and any time on public holidays. If there are no appointments visible at the moment please try again during the hours outlinedHello Home Doctor Service is an accredited deputising afterhours medical service and because of this can only provide appointments before 8AM and after 6PM on Monday to Friday, before 8AM and after 12PM on Saturdays, any time Sundays and any time on public holidays. If there are no appointments visible at the moment please try again during the hours outlined",
+        "price": "50"
+    },
+    {
+        "id": "03",
+        "name": "Get madicine",
+        "short_d": "Medical services means medical and health care services provided to a Person, including, but not limited to, medical and health care services provided to a Person which are covered by a policy of insurance, ....",
+        "img": "https://i.ibb.co/xCKGh4w/Medical-design-background-poster-with-original-medicinal-capsule-consisting-of-red-and-white-parts-a.jpg",
+        "descripiton": "Medical services means medical and health care services provided to a Person, including, but not limited to, medical and health care services provided to a Person which are covered by a policy of insurance, and includes, without limitation, physician services, nurse and therapist services, dental services, hospital services, skilled nursing facility services, comprehensive outpatient rehabilitation services, home health care services, residential and out-patient behavioral healthcare services, and medicine or health care equipment provided to a Person for a necessary or specifically requested valid and proper medical or health purpose.Medical services means medical and health care services provided to a Person, including, but not limited to, medical and health care services provided to a Person which are covered by a policy of insurance, and includes, without limitation, physician services, nurse and therapist services, dental services, hospital services, skilled nursing facility services, comprehensive outpatient rehabilitation services, home health care services, residential and out-patient behavioral healthcare services, and medicine or health care equipment provided to a Person for a necessary or specifically requested valid and proper medical or health purpose.",
+        "price": "200"
+    },
+    {
+        "id": "04",
+        "name": "Get apoinment",
+        "short_d": "A basic plan can help you make the most of your appointment whether you are starting with a new doctor or continuing with the doctor you’ve seen for years. The following tips will make it easier for you and your doctor to cover everything you need to talk about.",
+        "img": "https://i.ibb.co/TKh67Sm/3896559.jpg",
+        "descripiton": "A basic plan can help you make the most of your appointment whether you are starting with a new doctor or continuing with the doctor you’ve seen for years. The following tips will make it easier for you and your doctor to cover everything you need to talk about.A basic plan can help you make the most of your appointment whether you are starting with a new doctor or continuing with the doctor you’ve seen for years. The following tips will make it easier for you and your doctor to cover everything you need to talk about.",
+        "price": "100"
+    },
+    {
+        "id": "05",
+        "name": "Get emplyment",
+        "short_d": "Our founders are serial entrepreneurs who understand from experience that the hiring process is often the biggest hurdle in growing a company. Posting open positions on job boards like Monster.com or Craigslist is ...",
+        "img": "https://i.ibb.co/zHKHf1V/Employees-CV-candidates-resume-Corporate-workers-students-ID-isolate-flat-design-element-Job-applica.jpg",
+        "descripiton": "Our founders are serial entrepreneurs who understand from experience that the hiring process is often the biggest hurdle in growing a company. Posting open positions on job boards like Monster.com or Craigslist is time-consuming and expensive - and may elicit hundreds of email inquiries per post. Employers must then spend time sifting through these resumes to find the best candidates, sometimes with no insight into who is really best for an open position.Our founders are serial entrepreneurs who understand from experience that the hiring process is often the biggest hurdle in growing a company. Posting open positions on job boards like Monster.com or Craigslist is time-consuming and expensive - and may elicit hundreds of email inquiries per post. Employers must then spend time sifting through these resumes to find the best candidates, sometimes with no insight into who is really best for an open position.",
+        "price": "85"
+    },
+    {
+        "id": "06",
+        "name": "Get mobail tritment",
+        "short_d": "nline Doctor Consultation is very significant at an emergency time. In critical health conditions, anyone cannot drive to go to the hospital for doctor consulting.Video calls and phone consulting are very beloved of all, ...",
+        "img": "https://i.ibb.co/hV9h2MF/5124556.jpg",
+        "descripiton": " Video calls and phone consulting are very beloved of all, and it is enough for your emergency time. This online doctor consultation service is now available all over the country.Video calls and phone consulting are very beloved of all, and it is enough for your emergency time. This online doctor consultation service is now available all over the country.Video calls and phone consulting are very beloved of all, and it is enough for your emergency time. This online doctor consultation service is now available all over the country.Video calls and phone consulting are very beloved of all, and it is enough for your emergency time. This online doctor consultation service is now available all over the country.",
+        "price": "100"
+    }
+]
