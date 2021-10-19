@@ -12,6 +12,7 @@ import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Footer from './components/Home/Footer/Footer';
 import NotFound from './components/Home/NotFound/NotFound'
 import Home from './components/Home/Home/Home';
+import Register from './components/Home/Ragister/Register';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
             </Route>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <Route path="/register">
+              <Register></Register>
             </Route>
             <PrivateRoute path="/detailes/:serviceId">
               <Detailes></Detailes>
