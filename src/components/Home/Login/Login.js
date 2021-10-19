@@ -61,10 +61,7 @@ const Login = () => {
                         <img class="mb-4" src="https://i.ibb.co/ZhZZMpp/rsz-logo-dark.png" alt="" width="120" />
                         <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
-                        <div class="form-floating">
-                            <input onBlur={handleEmailChange} type="text" class="form-control" id="floatingInput" />
-                            <label for="floatingInput">Full Name</label>
-                        </div>
+
                         <div class="form-floating">
                             <input onBlur={handleEmailChange} type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
                             <label for="floatingInput">Email address</label>
