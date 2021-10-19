@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, getAuth } from '@firebase/auth';
+import { createUserWithEmailAndPassword, getAuth, updateProfile } from '@firebase/auth';
 import React, { useState } from 'react';
 import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
@@ -6,11 +6,12 @@ import useAuth from '../../../Hook/useAuth';
 
 const Register = () => {
     const [email, setEmail] = useState('');
+    const [name, setName] = useState('');
     const [password, setPassword] = useState('');
     const [user, setUser] = useState({});
     console.log(user);
 
-    const { signInUsingGoogle, Register } = useAuth();
+    const { signInUsingGoogle, } = useAuth();
     const auth = getAuth()
 
     const location = useLocation();
@@ -24,12 +25,19 @@ const Register = () => {
                 history.push(redirect_uri);
             })
     }
+    const setUserName = () => {
+        updateProfile(auth.currentUser, { displayName: name })
+            .then(() => { })
+    }
 
     const handleEmailChange = (e) => {
         setEmail(e.target.value)
     }
     const handlePasswordChange = (e) => {
         setPassword(e.target.value)
+    }
+    const handleNameChange = (e) => {
+        setName(e.target.value)
     }
     const handleRegistration = e => {
         console.log(email, password)
@@ -38,6 +46,7 @@ const Register = () => {
             .then((result) => {
                 setUser(result.user)
                 history.push(redirect_uri);
+                setUserName()
             })
     }
 
@@ -49,7 +58,7 @@ const Register = () => {
                         <img class="mb-4" src="https://i.ibb.co/ZhZZMpp/rsz-logo-dark.png" alt="" width="120" />
                         <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
                         <div class="form-floating">
-                            <input onBlur={handleEmailChange} type="text" class="form-control" id="floatingInput" placeholder="Full Nmae" />
+                            <input onBlur={handleNameChange} type="text" class="form-control" id="floatingInput" placeholder="Full Nmae" />
                             <label for="floatingInput">Full Name</label>
                         </div>
                         <div class="form-floating">
